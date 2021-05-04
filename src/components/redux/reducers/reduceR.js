@@ -5,5 +5,7 @@ export default(state=initialState,action)=>{
         case "":{
 
         }
-    }
+        default : return state
+    } 
+  
 }

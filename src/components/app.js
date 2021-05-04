@@ -1,9 +1,11 @@
 import React from 'react';
-
+import Modal from './Modal'
 const App = () => {
     return (
         <div>
-            hello
+           <p>hello</p>
+        <button >open the modal </button>
+  <Modal/>
         </div>
     );
 };
