@@ -1,8 +1,8 @@
-import {createStore,compose} from 'redux';
+import {createStore,compose,applyMiddleware} from 'redux';
 import rootReducer from "./reducers";
 import {composeWithDevTools} from "redux-devtools-extension";
-const initState={}
+import thunk from 'redux-thunk'
 const composeFunc=process.env.NODE_ENV==='development'?composeWithDevTools:compose
-const composeEnhancer=composeFunc()
-const store=createStore(initState,rootReducer(),composeEnhancer)
+const composeEnhancer=composeFunc(applyMiddleware(thunk))
+const store=createStore(rootReducer(),composeEnhancer)
 export default store
