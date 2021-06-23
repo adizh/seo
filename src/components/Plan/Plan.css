@@ -1,0 +1,192 @@
+.plan_card{
+    max-width: 370px;
+height: 514px;
+background: #FFFFFF;
+padding-top: 50px;
+margin-top: 66px;
+display:flex;
+flex-direction:column;
+align-items:center;
+border:none;
+text-decoration:none;
+}
+.plan_card:hover{
+    transition:.2s ease-out;
+margin-top: 45px;
+max-width: 370px;
+height: 574px;
+background: #FFFFFF;
+box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.07);
+}
+.plan_title{
+    font-size: 24px;
+line-height: 150%;
+color: #000000;
+}
+#third{
+    position:absolute;
+    left: 115px;
+}
+.plan_title:hover{
+    color: #F25822;
+}
+.plan_price{
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+}
+.price_icon{
+font-size: 18px;
+line-height: 150%;
+color: #000000;
+position:absolute;
+left: -13px;
+ top: 26px;
+}
+.plan_info{
+    font-size: 16px;
+line-height: 250%;
+text-align: center;
+color: #666666;
+}
+.price_num{
+    font-size: 70px;
+line-height: 150%;
+
+color: #000000;
+}
+.price_def{
+    display:flex;
+    position:relative
+}
+.price_month{
+    left: 79px;
+    position: absolute;
+    top: 56px;
+}
+.plan_btn{
+    border:none;
+ width: 200px;
+padding:10px;
+text-align: center;
+font-size:13px;
+text-decoration:none;
+font-weight:500;
+margin-top: 30px;
+color: #F3602D;
+background: rgba(242, 88, 34, 0.25);
+border-radius: 50px;
+}
+.price_month{
+    color:#000;
+}
+.plan_btn:hover{
+    transition: .3s ease-in;
+    background: #F25822;
+box-shadow: 4px 4px 10px rgba(242, 88, 34, 0.25);
+border-radius: 50px;
+color:white;
+}
+
+.modal_info{
+    background:rgba(0,0,0,0.4);
+    position:fixed;
+    width: 100vw;   
+    height: 100vh;
+    top:0;
+    left:0;
+    transform:scale(0);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.active{
+    transform:scale(1)
+}
+.modal_content{
+    width: 400px;
+    height: 400px;
+    background:white;
+}
+.form_header{
+    text-align:center;
+    margin: 16px;
+    text-transform: capitalize;
+
+}
+form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+form input{
+    border:1px solid #afafad;
+    border-radius:5px;
+    padding: 10px;
+    color: #666;
+width:60%;
+    margin: 10px;
+    background: white;
+
+}
+form input:focus{
+    outline:none;
+}
+.form_btn{
+    border:none;
+    border-radius:5PX;
+}
+.thanks_info{
+
+        
+        position:fixed;
+        width: 100vw;   
+        height: 100vh;
+        top:0;
+        left:0;
+        transform:scale(0);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .thanks_text{
+        width: 400px;
+        height: 400px;
+        background:white;  
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size: 29px;
+        position:relative;
+        text-align:center;
+
+    }
+.active_thanks{
+        transform:scale(1)
+    }
+    .none{
+        display:none;
+      
+    }
+    .thans_btn{
+        border:none;
+        right: 347px;
+        top: 57px;
+        position: absolute;
+        /* right: 5px; */
+        /* top: 5px; */
+        background: red;
+        color: white;
+        width: 14px;
+        display: flex;
+        justify-content: center;
+    }
+    .plans{
+        padding-top: 3px;
+        height: 781px;
+    }

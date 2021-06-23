@@ -1,0 +1,780 @@
+@media (max-width: 1024px){
+    .nav_links{
+        width: 54%;
+    }
+    .seo_header{
+        font-size:54px;
+        width: 512px;
+    }
+    .left_pic {
+        width: 488px;
+        height: 336px;
+    }
+    .partner_img img{
+        width: 144px;
+
+    }
+    .reasons_card {
+        height: 441px;
+        width: 304px;
+    }
+    .need_title {
+        font-size: 39px;
+    }
+    .need_pic {
+        width: 513px;
+        height: 403px;
+    }
+    
+.achive_num {
+    font-size: 60px;
+    }
+    .speed_title {
+        font-size: 39px;
+    }
+    .plan_title {
+        font-size: 43px;
+    }
+    .plan_card {
+        width: 305px;
+        height: 494px;
+    }
+    .price_num {
+        font-size: 62px;
+    }
+    .team_header {
+        font-size: 40px;
+    }
+    .rev_header {
+        font-size: 40px;
+    }
+    .news_header {
+        font-size: 40px;
+    }
+    .news_img{
+        width: 380px;
+        height: 320px;
+       
+    }   
+    .company_option {
+        font-size: 14px;
+    }
+    #second{
+        font-size: 14px;
+    }    
+    .logo_text {
+        font-size: 14px;
+    }
+    .contact_title {
+        font-size: 14px;
+    }
+    .contact {
+        font-size: 14px;
+        margin-bottom: 60px;
+    }  
+}
+@media (max-width: 992px){
+    .seo_header {
+        font-size: 49px;
+        width: 509px;
+    }
+    .left_pic {
+        width: 435px;
+        height: 316px;
+    }
+    .seo_subtext {
+        font-size: 17px;
+    }
+    .partner_img img {
+        width: 139px;
+    }
+    .solution_header {
+        width: 364px;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .solution_text {
+        MARGIN-BOTTOM: 18PX;
+        width: 501px;
+        font-size: 15px;
+    }
+    .solution_btn{
+        font-size: 14px;
+    }
+    .section_image img {
+        width: 496px;
+        height: 464px;
+    }
+    .card_title {
+    
+        font-size: 22px;
+    }
+    .card_img img{
+        width: 59px;
+        height: 58px;
+    }
+    .reason_title {
+        font-size: 40px;
+    }
+    .reason_text {
+        font-size: 14px;
+    
+        width: 634px
+    }
+    .reason_img img {
+        max-width: 281px;
+        min-height: 181px;
+    }
+    .reasons_card {
+        height: 432px;
+        width: 281px;
+    }
+    
+
+.reasons_text {
+    width: 277px;
+}
+.reasons_link {
+    width: 126px;
+    height: 46px;
+    font-size: 15px;
+}
+.need_title {
+    font-size: 35px;
+}
+.need_pic {
+    width: 478px;
+    height: 355px;
+}
+.need_card_img img {
+    width: 90px;
+    height: 90px;
+}
+.need_card_title {
+    margin-bottom: 13px;
+    font-size: 18px;
+}
+.achive_num {
+    font-size: 53px;
+}
+#warning:before {
+ 
+    width: 13px;
+    height: 13px;}
+
+
+#success:after{
+    width: 13px;
+    height: 13px;
+}
+#danger:after{
+    width: 13px;
+    height: 13px;
+}
+.speed_title {
+    font-size: 35px;
+}
+.speed_text{
+    max-width: 437px;
+}
+.plan_card {
+    width: 266px;
+    height: 463px;
+}
+.price_num {
+    font-size: 53px;
+}
+.price_icon {
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    position: absolute;
+    left: -13px;
+    top: 13px;
+}
+.price_month {
+    left: 66px;
+    position: absolute;
+    top: 38px;
+}
+.plan_title {
+    font-size: 41px;
+}
+.team_header {
+    font-size: 38px;
+}
+.team_text{
+    width: 380px;
+    margin-top: -16px;
+}
+.news_header {
+    font-size: 38px;
+}
+.news_text{
+    max-width: 515px;
+    font-size: 15px;
+}
+.news_img {
+    width: 363px;
+    height: 307px;
+}
+}
+@media (max-width: 768px){
+    .seo_header {
+    line-height: 33px;
+    font-size: 24px;
+    width: 365px;
+}
+#second_footer{
+    margin-left: 77px;
+}
+.company_title {
+    font-size: 13px;
+}
+#third_footer {
+    margin-top: 0px;
+    margin-left: 31px;
+}
+.card_text {
+    width: 188px;
+    margin: 15px 0;
+}
+.need_card {
+    width: 388px;
+    /* max-width: 478px; */
+}
+.left_pic {
+    width: 341px;
+    height: 258px;
+}
+   .solution {
+    min-width: 658px;
+}
+   
+    .seo_subtext {
+        font-size: 16px;
+        width: 381px;
+    }
+    .seo_btn {
+    width: 113px;
+    height: 43px;
+}
+.card_text {
+    width:192px;
+    margin:15px 0;
+}
+.plans {
+    height: 500px
+}
+.advan_card {
+    margin-top: 3px;
+    border: 1px solid #e3e2e2;
+    align-items: center;
+}
+.advantages{
+        width: 760px;
+}
+     .partner_img img {
+    width: 105px;
+}
+.reasons {
+    min-height: 1400px;
+    width: 744px;
+}
+#second_reason{
+    margin: 12px auto;
+}
+   .solution_header {
+    width: 290px;
+    font-weight: 700;
+    font-size: 26px;
+}
+.solution_text {
+    MARGIN-BOTTOM: 18PX;
+    width: 343px;
+    font-size: 15px;
+}
+.section_image img {
+    width: 446px;
+    height: 418px;
+}
+  
+    .reasons_text {
+        width: 210px;
+    }
+  /*   .reasons_card {
+        display: flex;
+        flex-direction: row;
+        width: 683px;
+        height: 302px;
+    } */
+.reason_text {
+    font-size: 14px;
+    width: 486px;
+}
+.reason_title {
+    font-size: 35px;
+}
+    .reason_img img {
+        max-width: 224px;
+        min-height: 181px;
+    }
+    .reasons_card {
+    height: 381px;
+    width: 221px;
+}
+.need_pic {
+    width: 368px;
+    height: 251px;
+}
+.need_title {
+    width: 302px;
+    font-size: 23px;
+}
+.need_card_img img {
+    width: 75px;
+    height: 75px;
+}
+
+.achieve {
+    width: 689px;
+}
+.need_card_text {
+    width: 269px;
+    }
+.need_text{
+    max-width: 556px;
+}
+#warning:before{
+    left: 138px;
+}
+#danger:before{
+      left: 138px;
+}
+#success:after{
+      left: 138px;
+}
+.achive_text {
+    font-size: 15px;
+}
+.achive_num {
+    font-size: 44px;
+}
+.need_card_title {
+    margin-bottom: 13px;
+    font-size: 16px;
+}
+.plan_card {
+    width: 219px;
+    height: 385px;
+    margin:12px auto;
+}
+.plan_info {
+    font-size: 14px;
+    line-height: 212%;
+}
+.team_header {
+    font-size: 33px;
+}
+.plan_title {
+    
+    font-size: 35px;
+}
+.plans{
+    min-height: 500px;
+}
+.team_text {
+    width: 321px;
+}
+.rev_header {
+    font-size: 35px;
+}
+.rev_text {
+    font-size: 14px;
+}
+.car_text {
+    margin: 0 auto;
+    font-size: 14px;
+}
+.news_header {
+    font-size: 34px;
+}
+.news_text {
+    max-width: 457px;
+    font-size: 14px;
+}
+.news_img {
+    width: 265px;
+    height: 265px;
+}
+.block_header {
+    font-size: 20px;
+}
+.footer_logo_img{
+     
+    width: 30px;
+    height: 35px;
+}
+.company_option:after{
+    right: 129px;
+    top: 11px;
+}
+.logo_text {
+    font-size: 13px;
+    width: 261px;
+}
+#four_footer{
+    margin-top:32px;
+}
+
+#third_reason{
+    margin:0 auto;
+}
+#footer_con{
+    padding:0 50px;
+}
+.footer_right {
+    width: 679px;
+}
+#second:after{
+    right: 145px;
+    top: 15px;
+}
+.company_option {
+    font-size: 12px;
+}
+.plan_text{
+    margin-bottom: -31px;
+}
+.price_num {
+    font-size: 43px;
+}
+.price_icon{
+    top: 8px;
+}
+.price_month {
+    left: 52px;
+    top: 32px;
+}
+.plan_btn {
+    border: none;
+    width: 138px;
+}
+.team_info{
+    width: 181px;
+}
+
+.nav_links{
+    display:none;
+}
+.burger{
+    display:block;
+}
+.burger span{
+    width: 20px;
+    height:3px;
+    background: red;
+    display:block;
+    margin: 4px;
+}
+#four_footer{
+    margin-top:31px;
+}
+
+
+.speed_img img {
+    height: 156px;
+    width: 226px;
+}
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 540px){
+    #second_footer {
+        margin-top: 17px;
+        margin-left: -1px;
+    }
+    #second:after {
+    right: 198px;
+    }
+    .company_option:after {
+        right: 270px;
+        top: 11px;
+    }
+    .plans{
+        width: 809px;
+    }
+
+#third_footer {
+    margin-top: 61px;
+    margin-left: 24px;
+}
+
+
+#second {
+    font-size: 16px;
+}
+
+
+.company_option {
+    font-size: 16px;
+}
+.growBe {
+    width: 24px;
+}
+.grow_word{
+     
+    width: 66px;
+}
+.seo_header {
+    line-height: 32px;
+    font-size: 19px;
+    width: 261px;
+}
+.seo_subtext {
+    font-size: 15px;
+    width: 286px;
+}
+.left_pic {
+    width: 238px;
+    height: 187px;
+}
+.seo_btn {
+    width: 99px;
+    height: 29px;
+    font-size: 15px;
+}
+.seo_video {
+    margin-top: 1px;
+}
+.partner_img img {
+    width: 73px;
+}
+.section_image img {
+    width: 292px;
+    height: 332px;
+}
+.solution {
+    min-width: 795px;
+}
+.solution_header {
+    width: 208px;
+    font-size: 20px;
+    line-height: 32px;
+}
+.solution_text {
+    MARGIN-BOTTOM: 25PX;
+    width: 245px;
+    font-size: 15px;
+}
+.solution_btn {
+    font-size: 12px;
+}
+.advantages {
+    width: 530px;
+}
+.advan_card {
+    width: 360px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    height: 300px;
+}
+.card_img img {
+    width: 54px;
+    height: 54px;
+}
+.card_title{
+     
+    margin-bottom: 2px;
+
+}
+
+.reason_title {
+    font-size: 26px;
+}
+.reasons {
+    min-height: 1728px;
+    width: 807px;
+}
+.reasons_card {
+    margin: 0 auto;
+}
+.need_pic {
+    width: 233px;
+    height: 211px;
+}
+.rev{
+    width: 837px;
+}
+.plans{
+    min-height: 1389px;
+}
+.need_card_title {
+    margin-bottom: 9px;
+    font-size: 14px;
+}
+.need_card_img img {
+    width: 59px;
+    height: 59px;
+}
+.need_title {
+    width: 302px;
+    font-size: 22px;
+    line-height: 32px;
+}
+.need_text{
+    width:293px;
+    font-size:14px;
+}
+.need_card_text {
+    font-size: 14px;
+    width: 221px;
+}
+.ned_card{
+    margin-top: -16px;
+}
+.need_info {
+    margin-left: 5px;
+}
+.plan_title {
+    font-size: 32px;
+}
+.plan_text {
+    margin-bottom: 61px;
+}
+.plan_btn {
+    border: none;
+    width: 121px;
+}
+.team_header {
+    font-size: 29px;
+}
+.team_text {
+    width: 289px;
+    font-size: 15px;
+}
+.team_info {
+    margin: 10px auto;
+    width: 181px;
+}
+.rev_header {
+    font-size: 32px;
+}
+.rev_text{
+        width: 259px;
+}
+.car_text {
+    width: 341px;
+}
+.news_header {
+    font-size: 31px;
+}
+.news_text {
+  font-size: 14px;
+    width: 325px;
+}
+.news_img {
+    width: 203px;
+    height: 199px;
+}
+.achive_num {
+    font-size: 33px;
+}
+.achieve {
+    min-height: 134px;
+    width: 808px;
+
+}
+#warning:before {
+    left: 97px;
+    top: 27px;
+    width: 12px;
+    height: 12px;
+}
+#success:after {
+    left: 96px;
+    top: 27px;
+    width: 12px;
+    height: 12px;
+}#danger:after {
+    left: 131px;
+width: 12px;
+    height: 12px;
+    top: 27px;
+}
+.achive_text {
+    font-size: 12px;
+}
+
+.block_header {
+    font-size: 20px;
+}
+.news_tags{
+    width:230px;
+}
+.footer_right {
+    width: 834px;
+    font-size: 15px;
+}
+.bus_pic {
+    width: 234px;
+}
+.bus_text {
+margin-left:-13px;
+    font-size: 21px;
+    line-height: 29px;
+}
+
+
+.modal_content {
+    left: -219px;
+    padding-top: 50px;
+    width: 400px;
+    height: 400px;
+    background: white;
+    position: relative;
+    
+}
+.thanks_text{
+    
+left:-195px;
+z-index:1000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo_text {
+    font-size: 13px;
+    width: 231px;
+    margin-left: 22px;
+}
+.logo_media {
+    margin-left: 22px;
+}
+.logo_pic{
+    margin-left: 22px;
+}
+
+
+
+
+
+
+}

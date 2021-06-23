@@ -1,0 +1,49 @@
+.speed_info_ofwebsite{
+    margin:40px auto;
+    width:565px;
+    min-height: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #e2e2e2;
+    display:flex;
+    justify-content:center;
+    color: #666666;
+    align-items:center;
+    font-family: Roboto,sans-serif;
+    font-size:18px;
+}
+.site_name{
+    margin-top: 16px;
+}
+.speed_website_cat{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+ 
+    min-width: 65px;
+color:white;
+    min-height:60px;
+    background:#F25822;
+    border-radius:50%;
+}
+.loading{
+    display:block;
+
+}
+.hiding{
+    display:none
+}
+.link{
+    text-decoration:none;
+    color: black;
+}
+#speed_of{
+    display:flex;
+    margin-top:15px;
+}
+.website_speeed{
+    margin: 13px 18px 0 0;
+}
+.speed_info h5{
+    margin-bottom:10px;
+}

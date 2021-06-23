@@ -1,10 +1,11 @@
 import React from 'react'
 import macbook from '../image/macbook.png'
+import {Link} from 'react-router-dom'
 const Solution=()=>{
     return(
         <div>
 
-<section className='solution'>
+<section className='solution' id='Solution'>
 
 <div className='section_text'>
 
@@ -19,7 +20,7 @@ coordinate e-business applications through revolutionary catalysts for
 chang the Seamlessly underwhelm optimal testing procedures.
 
 </p>
-<button className='solution_btn'>Learn More</button>
+<Link to='/solution' className='solution_btn'>Learn More</Link>
 </div>
 <div className='section_image'>
 <img src={macbook}/>

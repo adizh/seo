@@ -1,44 +1,27 @@
-import React from 'react';
+import React   from 'react';
 import Logo from '../image/logo.png'
 import GrowBe from '../image/GrowBe.png'
-import {Dropdown} from 'react-bootstrap'
 import Elem from '../image/pngfind.png'
 import element from '../image/element.png'
 import icon from '../image/icon.png'
 import Solution from './Solution'
 import Card from './Card'
 import PicPartners from './PicPartners'
+import {Link} from 'react-router-dom';
+import Navbar from './Nav/Navbar';
+import ScrollTopArrow from './ScrollTopArrow';
 const Home = () => {
+
     return (
-        <div>
-            <div className="nav">
+        <div id='Home'>
+          <ScrollTopArrow/>
+    <div className="nav">
                <div className='nav_logo'>
                    <img src =
              {Logo} className='growBe'/>
-                   <img src={GrowBe}/>  
-                </div>
-                <div className='nav_links'>
-                    <a href="" className="nav_li">home</a>
-                    <a href="" className="nav_li">about us</a>
-                    <a href="" className="nav_li">services</a>
-                 
-                    <Dropdown  id='dropdown'>
-  <Dropdown.Toggle   className='drop_nav_li' variant="success" id="dropdown-basic">
-    Features
-  </Dropdown.Toggle>
-  <Dropdown.Menu>
-    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-  </Dropdown.Menu>
-</Dropdown>
-
-                    <a href="" className="nav_li">team</a>
-                    <a href="" className="nav_li">blog</a>
-                    <a href="" className="nav_li">contact</a>
-                    <a href="" className="nav_li_btn">get started</a>
-                </div>
-
+                   <img src={GrowBe} className='grow_word'/>  
+                </div>        
+<Navbar/>
             </div>
             <div className='main_home'>
 
@@ -61,12 +44,12 @@ seo ranking. Globally incubate standards.
 </div>  
 <div className='seo_video'>
   <div>
-  <a href="">
+  <Link to='/video' href="">
   <img src={icon} />
-  </a>
+  </Link>
   </div>
   
-<div>  <a href="" className='seo_link'>Watch Video</a>
+<div>  <Link to='/video' href="" className='seo_link'>Watch Video</Link>
 </div>  
 </div>
 
@@ -77,27 +60,10 @@ seo ranking. Globally incubate standards.
               </div>
 
             </div>
-
+        
           <PicPartners/>
-
-            
-
 <Solution/>
 <Card/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         </div>
     );

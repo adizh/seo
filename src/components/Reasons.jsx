@@ -4,7 +4,7 @@ import illustration from '../image/illustration.png'
 import illustration2 from '../image/illustration (1).png'
 import illustration3 from '../image/illustration (2).png'
 import Need from './Need'
-
+import {Link} from 'react-router-dom'
 
 const Reasons = () => {
     return (
@@ -25,8 +25,8 @@ applications through revolutionary catalysts.
   <Container>
 
 <Row>
-   <Col md='4'>
-   <button className='reasons_card'>
+   <Col md='4' sm='6'>
+   <Link to = '/research'className='reasons_card'>
 
 <div className='reason_img'>
 <img src={illustration} />
@@ -39,32 +39,32 @@ Keyword Research
 Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.
 </div>
 <a href="" className='reasons_link'>Learn More...</a>
-</button>
+</Link>
    </Col>
 
 
-   <Col md='4'>
-   <button className='reasons_card'>
+   <Col md='4' sm='6' id='second_reason'>
+   <Link to='/optimization' className='reasons_card'>
 
 <div className='reason_img'>
 <img src={illustration2} />
 </div>
 <div className='reasons_title'>
-Seo Optimazadion
+Seo Optimazation
 </div>
 
 <div className='reasons_text'>
 Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.
 </div>
 <a href="" className='reasons_link'>Learn More...</a>
-</button>
+</Link>
    </Col>
 
 
 
 
-   <Col md='4'>
-   <button className='reasons_card'>
+   <Col md='4' sm='6' id='third_reason'>
+   <Link to ='/marketing' className='reasons_card'>
 
 <div className='reason_img'>
 <img src={illustration3} />
@@ -77,7 +77,7 @@ Social Marketing
 Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.
 </div>
 <a href="" className='reasons_link'>Learn More...</a>
-</button>
+</Link>
 </Col>
  </Row>
 </Container>

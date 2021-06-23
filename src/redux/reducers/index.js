@@ -1,4 +1,4 @@
 import {combineReducers} from "redux";
-import reducer from "./reducer";
-const rootReducer=()=>combineReducers({reducer})
+import counter from './counter'
+const rootReducer = () => combineReducers({counter});
 export default rootReducer

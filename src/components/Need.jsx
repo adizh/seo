@@ -26,7 +26,7 @@ SEO & why do you need it?</div>
                     <div className='need_card_img'>
                         <img src={icon1}/>
                     </div>
-                  <div>
+                  <div className='ned_card'>
                   <div className='need_card_title'>Social Media Marketing</div>
                     <div className='need_card_text'>
 
@@ -41,7 +41,7 @@ for chang the Seamlessly underwhelm dures.
                     <div className='need_card_img'>
                         <img src={icon2}/>
                     </div>
-                  <div>
+                  <div className='ned_card'>
                   <div className='need_card_title'>Email Marketing</div>
                     <div className='need_card_text'>
 
@@ -56,9 +56,11 @@ for chang the Seamlessly underwhelm dures.
                     <div className='need_card_img'>
                         <img src={icon3}/>
                     </div>
-                  <div>
+                  <div className='ned_card'>
                   <div className='need_card_title'>SEO Optimization</div>
                     <div className='need_card_text'>
+
+
 
                     Business applications through revolutionary catalysts
 for chang the Seamlessly underwhelm dures.

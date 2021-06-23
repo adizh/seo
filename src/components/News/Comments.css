@@ -1,0 +1,22 @@
+.comment_list{
+list-style:none;
+border:1px solid #E2E2E2;
+padding: 10px;
+display:flex;
+justify-content:space-between;
+align-items: center;
+
+
+}
+.com_section{
+    margin-top: 20px;
+}
+.btn-delete {
+    background:white;
+    height: 34px;
+    /* min-height: 11px; */
+    border: 1px solid;
+    /* padding: 40px; */
+    font-size: 15px;
+    margin-top:3px;
+}

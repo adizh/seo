@@ -1,0 +1,190 @@
+.footer{
+
+    background: #F3F3F3;
+    min-height:1000;
+    margin-top: 67px;
+    padding: 30px 26px;
+   
+    position:relative;
+}
+
+.maps{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    height:450px;
+}
+.link_map{
+    margin-left: 20px;
+    text-decoration:none;
+    color:black;
+}
+.map_header{
+    text-align:center;
+    margin-bottom: 45px;
+}
+.footer_right{
+    font-size: 16px;
+line-height: 230%;
+text-align:center;
+color: #888888;
+background: #F3F3F3;
+}
+.footer:after{
+    content:'';
+    border: 1px solid #CCCCCC;
+    position:absolute;
+    width:95%;
+    bottom: 1px;
+}
+.logo_media{
+    width:87px;
+    display:flex;
+    justify-content:space-between;
+}
+.logo_media a{
+display:block;
+
+}
+.logo_media a:hover{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+ background: rgb(201, 190, 190);
+
+    border-radius:5px;
+
+}
+.company_option{
+    text-transform: capitalize;
+
+    font-size: 16px;
+    line-height: 230%;
+    position:relative;
+    
+    color: #666666;
+
+
+}
+.company_option:after{
+    content:'';
+    position: absolute;
+    background: #F25822;
+    width: 5px;
+    height: 5px;
+    border-radius:50%;
+right: 74px;
+top: 17px;
+}
+.logo_text{
+font-size: 16px;
+line-height: 160%;
+color: #666666;
+width: 210px;
+margin: 40px 0 12px;
+}
+.company_list{
+    text-decoration-color: red;
+}
+
+.company_title{
+    font-size: 16px;
+line-height: 150%;
+font-weight:bold;
+color: #333333;
+margin-bottom: -26px;
+font-weight:bold;
+}
+.options{
+    margin-top: 47px;
+}
+#second{
+    position:relative;
+    text-transform: capitalize;
+
+    font-size: 16px;
+    line-height: 230%;
+    position:relative;
+    
+    color: #666666;
+}
+.company_option a{
+    text-decoration:none;
+   color:#666666;
+}
+.contact{
+    margin-bottom: 95px;
+}
+.contact_title{
+    font-size: 16px;
+line-height: 230%;
+margin-bottom: 18px;
+color: #333333;
+font-weight:bold;
+}
+
+.just{
+    position:relative;
+}
+.map{
+    position:relative;
+    overflow:hidden;
+}
+.style{
+    color:#eee;
+    font-size:12px;
+    position:absolute;
+    top:14px;
+}
+.map_link{
+    color:#eee;
+    font-size:12px;
+    position:absolute;
+    top:0px;
+}
+
+.contact a{
+  color: #333;
+    text-decoration:none;
+}
+.company_option a:hover{
+    color:black;
+}
+#second a:hover{
+color:black;
+}
+.contact a:hover{
+    color:black;
+}
+.address{
+    margin: 0 0 10px 0;
+    width: 219px;
+}
+.email{
+    margin: 10px 0;
+}
+.phone{
+    margin-top: 10px;
+}
+#second a{
+    text-decoration:none;
+    color:#666666
+}
+#second:after{
+    content:'';
+    position: absolute;
+    background: #F25822;
+    width: 5px;
+    height: 5px;
+    border-radius:50%;
+right: 75px;
+top: 17px;
+
+}
+#second_footer{
+    margin-left:18x;
+}
+#four_footer{
+    margin:-10px auto;
+}

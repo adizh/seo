@@ -2,20 +2,20 @@ import React from 'react';
 import icon1 from '../image/icon (1).png';
 import icon2 from '../image/icon (2).png';
 import icon3 from '../image/icon (3).png';
-import Features3 from '../image/Features 03.png'
-import {Container,Row,Col} from 'react-bootstrap'
 
+import {Container,Row,Col} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 import Reasons from './Reasons'
 const Card = () => {
     return (
-            <div className='advantages'>
+            <div id='Services' className='advantages'>
 
 
 <Container>
 
  <Row>
     <Col md='4'>
-    <button className='advan_card'>
+    <Link to='/business' className='advan_card'>
 
 <div className='card_img'>
 <img src={icon1} />
@@ -29,7 +29,7 @@ Leverage agile frameworks to provide a robust synopsis for high level overviews.
 
 </div>
 <a href="" className='card_link'>Learn More...</a>
-</button>
+</Link>
     </Col>
 
 
@@ -37,7 +37,8 @@ Leverage agile frameworks to provide a robust synopsis for high level overviews.
 
 
 
-    <Col md='4'><div className='advan_card'>
+    <Col md='4'>
+        <Link to ='/quality'className='advan_card'>
 
 <div className='card_img'>
 <img src={icon2} />
@@ -50,12 +51,12 @@ Get Quality leads
 Leverage agile frameworks to provide a robust synopsis for high level overviews.
 </div>
 <a href="" className='card_link'>Learn More...</a>
-</div></Col>
+</Link></Col>
 
 
 
 
-    <Col md='4' ><div className='advan_card'>
+    <Col md='4' ><Link to='/sales' className='advan_card'>
 
 <div className='card_img'>
 <img src={icon3} />
@@ -68,7 +69,7 @@ Drive More Sales
 Leverage agile frameworks to provide a robust synopsis for high level overviews.
 </div>
 <a href="" className='card_link'>Learn More...</a>
-</div>
+</Link>
 
 </Col>
   </Row>
