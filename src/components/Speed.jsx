@@ -4,7 +4,7 @@ import backImg from '../image/illustration (3).png'
 import Plan from './Plan/Plan';
 import Error from './Error'
 import SpeedInfo from './SpeedInfo';
-
+import {Spinner} from 'react-bootstrap'
 
 const Speed = ()=>{
     const [speedData,setSpeedData]=useState({})
@@ -13,18 +13,17 @@ const Speed = ()=>{
     const SpeedSubmit=(e)=> {
     e.preventDefault()
     setLoad(true)
-    axios(`https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${url}`).then(({data}) => {
-        console.log(data)    
-        return setSpeedData(data);
+    axios(`https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${url}`)
+    .then(({data}) => {    
+        setSpeedData(data);
+        setLoad(false)  
         }).catch(() => {
             setSpeedData({...speedData,error:true})
         })
 };
   const inputHandler = (e) => {
-    console.log(e.target.value);
     setUrl(e.target.value)
 };
-
  return(
         <div>         
 <div className='speed'>
@@ -38,11 +37,11 @@ const Speed = ()=>{
             <input type='url' placeholder = 'WEB URL'  onChange={inputHandler}/>
             <button type='submit' className = 'speed_btn'>Submit</button>
     </form>
- {(Object.entries(speedData).length === 0) ? '' : speedData.error ? <Error/> :
-                <SpeedInfo speedData={speedData} />}
+ { load === true ? <Spinner animation="border" variant="secondary" />:(Object.entries(speedData).length === 0) ? '' : speedData.error ? <Error/> :
+                 <SpeedInfo load={load} setLoad={setLoad} speedData={speedData} />}
 </div>
 <div className='speed_img'> 
-    <img src={backImg}/>
+    <img src={backImg} alt='back'/>
 </div>
 </div>
 <Plan/>
